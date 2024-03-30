@@ -19,6 +19,7 @@ const useGetMessages = () => {
       setSender(senderName[0]);
 
       const history = await chat.getMessages(sender, ensName);
+      // wip
 
       console.log("History", history);
     })();
